@@ -1,0 +1,58 @@
+body{
+    background-color:#D9E298;
+    font-family: 'Karla', sans-serif;
+}
+
+#titulo{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#teste {
+    text-align:center;
+}
+
+a{
+    color: white;
+   
+    }
+
+    h1{
+        font-family: 'Amatic SC', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Karla', sans-serif;
+      }
+   h2{
+    text-align: start;
+   }
+
+   .img-container{
+    text-align: start;
+}
+
+.funcaoquadratica{
+    text-align: start;
+}
+
+h1{
+    color:#749301;
+}
+
+#titulodois{
+    color:black;
+}
+
+.logaritmos{
+    text-align: start;
+}
+
+a:hover {
+
+    background-color: #25760D; 
+   
+   transition: 0.5s;
+   
+   opacity: 0.7;
+   
+   }

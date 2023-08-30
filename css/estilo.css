@@ -1,0 +1,51 @@
+body{
+  background-color:#FF9191;
+
+}
+
+a{
+color:aliceblue;
+font-family: 'Overpass', sans-serif;
+
+}
+h1{
+    color:wheat;
+}
+
+h2{
+    color:white;
+    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+
+#titulo{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container{
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+#cadastro{
+    text-align: center;
+}
+
+h3{
+    color:white;
+}
+
+a:hover {
+
+ background-color: #A51204; 
+
+transition: 0.5s;
+
+opacity: 0.7;
+
+}

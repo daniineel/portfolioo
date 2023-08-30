@@ -1,0 +1,37 @@
+#teste {
+    text-align:center;
+}
+
+body {
+background-color:#ADCFDF;
+font-family: 'Karla', sans-serif;
+  }
+
+  h1{
+    font-family: 'Amatic SC', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Karla', sans-serif;
+  }
+  
+  #titulo{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    
+    }
+
+    a:hover {
+
+      background-color: #185D7E; 
+     
+     transition: 0.5s;
+     
+     opacity: 0.7;
+     
+     }
+ 
