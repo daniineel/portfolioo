@@ -1,49 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt-BR"> 
+<html lang="pt-BR">
+
 <head>
     <meta charset="utf-8">
-<title>Portfólio</title>
+    <title>Portfólio</title>
+    <link href='css/estilo.css' rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap" rel="stylesheet">
+
 </head>
-<body bgcolor="#990073">
-    <center> 
-        <img align="left" src="imagens/Identidade-visual-Vertical-para-fundos-brancos-png.png" height="90" width="63" /> 
-<h1> <p align="middle"> <b>Portfólio de Matemática <img align="right" src="imagens/WhatsApp Image 2023-05-11 at 15.09.09.jpeg" height="90" width="130"</b></p> 
-</center>
-    <hr/>
-</h1>
 
-<h2> <p> Aluno:  Daniel Gotardo</p>
-<p> Turma: 1° Ano Informática</p>
-<p> Professores: Valéria Lessa e Ernani Gottardo </p>
-<p> Disciplinas: Matemática I e Desenvolvimento de Web I</p>
-</h2>
+<body>
 
-<h2>
-    <table> 
-        <tr>
-            <th>
-                <ul>
-<li> <a href  ="primeirotrimestre.html"  terget="_self">Primeiro Trimestre</a></li>
-</ul>
-</th>
-</tr>
-</table>
+    <div id='titulo'>
+        <table cellpadding="10">
+            <td><a href="index.html">Home</a></td>
+            <td><a href="primeirotrimestre.html">Primeiro Trimestre</a></td>
+            <td><a href="segundotrimestre.html">Segundo Trimestre</a></td>
+            <td><a href="autoavaliacao.html">Auto-Avaliação</a></td>
+            <td><a  href="avaliacaoproposta.html"> Avaliação de Proposta de Ensino</a></td>  
+        </table>
+    </div>
 
-
-
-
-</h2>
-
+   
+        
+ 
+       
+     <div class="img-container">     
+    <img src="imagens/Identidade-visual-Vertical-para-fundos-brancos-png.png" width="100" height="130">
+</div> 
+        <h1>
+            <div id="portfolio">
+            <p> <b>Portfólio de Matemática</b></p>
+        </div>
+      
+  
+    <hr />
+    </h1>
 
 
 
+    <h2>
+        <p> Aluno: Daniel Gotardo</p>
+        <p> Turma: 1° Ano Informática</p>
+        <p> Professores: Valéria Lessa e Ernani Gottardo </p>
+        <p> Disciplinas: Matemática I e Desenvolvimento de Web I</p>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Overpass:wght@200&display=swap"
+            rel="stylesheet">
 
+    </h2>
+</br>
+</br>
+    <div id='cadastro'>
+        <h2>Cadastre-se</h2>
+    </div>
+</br>
+</br>
+<form method="GET" id="form1" action="teste.php">
+        <label for="nome">Nome completo*</label>
+        <br>
+        <input type="text" name="nome" minlength="20" maxlenght="150" placeholder="Digite seu nome completo">
+        <br>
+        <br>
+        <label for="nascimeto">Data de nascimento*</label>
+        <br>
+        <input type="date" name="nascimento" >
+        <br>
+        <br>
+        <label for="email">Email*</label>
+        <br>
+        <input type="text" name="nome" size="20" placeholder="Digite seu email">
+        <br>
+        <br>
+        <fieldset> <legend>Sexo*</legend>
+            <input type="checkbox" name="feminino"> Feminino
+            <input type="checkbox" name="masculino"> Masculino
+        </fieldset>
+        <br>
+        <br>
+<textarea name="comentario" cols="20" rows="4" placeholder="Digite o seu comentário aqui"></textarea>
+<br>
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
 
-
-
-
-
-
-
+<h3>ATENÇÃO!
+    O formulário de cadastro não armazena os dados, deixe seu verdadeiro 
+    comentário no sigaa 
+</h3>
 
 </body>
