@@ -1,5 +1,5 @@
 body{
-  background-color:#FF9191;
+  background-color: black;
 
 }
 
@@ -9,27 +9,46 @@ font-family: 'Overpass', sans-serif;
 
 }
 h1{
-    color:wheat;
+    color:white;
 }
 
 h2{
     color:white;
     font-family: 'ABeeZee', sans-serif;
     font-family: 'Overpass', sans-serif;
+    
+
+    background-color:black; 
+    /*align-items: center;*/
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: sticky;
+
+  
+    margin: 35px 0 20px 0 !important;
+
+
+
 }
 
-#titulo{
-    display:flex; 
-    align-items: center;
-    justify-content: center;
-}
+
 
 .img-container{
     text-align: center;
 }
 
-#portfolio {
+.portfolio {
+    color:white;  
+    background: linear-gradient(to right, #96acf5, #14757c); 
     text-align: center;
+    font-family: 'Borel', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster Two', cursive;
+    padding: 5px;
+    border-radius: 180px;
+    box-shadow: 0px 15px 10px rgb(37, 37, 37)
 }
 
 #cadastro{
@@ -42,10 +61,16 @@ h3{
 
 a:hover {
 
- background-color: #A51204; 
+ background-color: #7eb2cf; 
 
 transition: 0.5s;
 
 opacity: 0.7;
 
+}
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em
 }
