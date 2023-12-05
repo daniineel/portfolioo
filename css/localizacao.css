@@ -1,0 +1,37 @@
+#local{
+    
+     align-items: center;
+    
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+    
+     justify-content: center;
+     margin: 35px 0 20px 0 !important;
+
+}
+
+#titulo{
+
+    border: 3px solid rgb(255, 217, 0);
+    background: #50048f;  
+    position: sticky;
+    top:0px;
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+
+a{
+    color:aliceblue;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color:blueviolet;
+}

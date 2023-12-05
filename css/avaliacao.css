@@ -1,0 +1,57 @@
+a{
+    color: white;
+     font-family: 'Overpass', sans-serif;
+    }
+
+    h1{
+        font-family: 'Amatic SC', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Karla', sans-serif;
+      }
+   h2{
+    text-align: center;
+   }
+
+   body{
+    background-color:#9378AF;
+    font-family: 'Karla', sans-serif;
+}
+
+
+
+p{
+    text-align:justify;
+    color:black;
+}
+
+a:hover {
+
+    background-color: #601583; 
+   
+   transition: 0.5s;
+   
+   opacity: 0.7;
+   
+   }
+
+   .container-fluid{
+  
+    position: fixed;
+    top: 0px;
+    background-color: rgb(53, 4, 66);
+    color:black;
+    height: 63px;
+    border-radius: 0px;
+    
+}
+
+*{
+    font-size: 25px;
+  
+    
+}
+th{
+    text-align: center;
+    
+}
+
