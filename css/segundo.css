@@ -1,12 +1,18 @@
 body{
-    background-color:#D9E298;
+    background-color:rgb(208, 245, 178);
     font-family: 'Karla', sans-serif;
 }
 
 #titulo{
-    display:flex; 
-    align-items: center;
-    justify-content: center;
+
+    border: 3px solid rgb(179, 9, 114);
+    background: #276e33;  
+    position: sticky;
+    top:0px;
+display:flex;
+align-items: center;
+justify-content: center;
+
 }
 
 #teste {
@@ -14,7 +20,7 @@ body{
 }
 
 a{
-    color: white;
+    color: rgb(255, 255, 255);
    
     }
 
@@ -22,37 +28,64 @@ a{
         font-family: 'Amatic SC', cursive;
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Karla', sans-serif;
+    color:rgb(255, 255, 255);
       }
    h2{
     text-align: start;
+    color:black;
    }
 
    .img-container{
-    text-align: start;
+    text-align: center;
 }
 
-.funcaoquadratica{
-    text-align: start;
-}
+
+
 
 h1{
-    color:#749301;
-}
-
-#titulodois{
     color:black;
 }
 
-.logaritmos{
-    text-align: start;
-}
+
+
+
 
 a:hover {
 
-    background-color: #25760D; 
+    background-color: rgb(83, 165, 63);
    
    transition: 0.5s;
    
    opacity: 0.7;
    
    }
+
+   .titulodois{
+   color:white;  
+    background: linear-gradient(to right, #90d450, #3b7e4a); 
+    font-family: 'Borel', cursive;
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster Two', cursive;
+    padding: 5px;
+    border-radius: 180px;
+    box-shadow: 0px 15px 10px rgb(37, 37, 37)
+}
+
+
+.galinha{
+    background-color: yellowgreen;
+color:white;
+text-align:center;
+justify-content: center;
+
+}
+.galinha:hover{
+    text-align: center;
+    background-color: rgb(15, 71, 4);
+    opacity: 0.7;
+    transition: 0,5s; font-size: 40px;
+}
+
+#video{
+    text-align: center;
+}
